@@ -1,11 +1,14 @@
 import React from "react";
+import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
+import CreateIcon from '@mui/icons-material/Create';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 const Home = () => {
   return (
     <div className="mt-5">
       <div className="container">
 
-        <div className="add_btn mt-2 mb-2">
+        <div className="add_btn mt-3 mb-4">
           <button className="btn btn-primary">Add Data</button>
         </div>
 
@@ -21,26 +24,26 @@ const Home = () => {
           </thead>
           <tbody>
             <tr>
-              <th scope="row">20305</th>
+              <th scope="row">1</th>
               <td>Akash Singh</td>
               <td>IT</td>
               <td>1234567890</td>
               <td className="d-flex justify-content-between">
-                <button className="btn btn-success"><i class="fa-solid fa-eye"></i></button>
-                <button className="btn btn-warning"><i class="fa-solid fa-pen"></i></button>
-                <button className="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+                <button className="btn btn-success"><RemoveRedEyeIcon /></button>
+                <button className="btn btn-warning"><CreateIcon /></button>
+                <button className="btn btn-danger"><DeleteIcon /></button>
               </td>
             </tr>
 
             <tr>
-              <th scope="row">20323</th>
+              <th scope="row">2</th>
               <td>Nitro Kumar</td>
               <td>IT</td>
               <td>1234567890</td>
               <td className="d-flex justify-content-between">
-                <button className="btn btn-success"><i class="fa-solid fa-eye"></i></button>
-                <button className="btn btn-warning"><i class="fa-solid fa-pen"></i></button>
-                <button className="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+                <button className="btn btn-success"><RemoveRedEyeIcon /></button>
+                <button className="btn btn-warning"><CreateIcon /></button>
+                <button className="btn btn-danger"><DeleteIcon /></button>
               </td>
             </tr>
             

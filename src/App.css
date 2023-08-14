@@ -5,3 +5,11 @@
 .container {
     overflow: auto;
 }
+
+.left_view {
+    font-size: 18px;
+}
+
+.left_view span{
+    font-weight: 350;
+}
